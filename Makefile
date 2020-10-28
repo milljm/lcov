@@ -17,7 +17,7 @@ FULL    := $(shell bin/get_version.sh --full)
 
 # Set this variable during 'make install' to specify the Perl interpreter used in
 # installed scripts, or leave empty to keep the current interpreter.
-export LCOV_PERL_PATH := /usr/bin/perl
+# export LCOV_PERL_PATH := /usr/bin/perl
 
 PREFIX  := /usr/local
 
